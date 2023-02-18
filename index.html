@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Atri App</title>
+
+
+    <style>
+        @import url(https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap);
+    </style>
+
+
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div id="root" style="height:100vh">
+
+
+
+        <!-- Navigation -->
+
+        <div class="navigation">
+            <div class="navbar">
+                <div class="logo">
+                    <img class="image-logo"
+                        src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c309aa0721dacedf0a_logo-restaurante-x-template.svg"
+                        alt="No preview available">
+                </div>
+                <div class="nav-items">
+                    <div class="nav">Home</div>
+                    <div class="nav">About</div>
+                    <div class="nav">Menu</div>
+                    <div class="nav">Pages</div>
+                    <div class="nav">Cart</div>
+                </div>
+            </div>
+            <div class="buttons-nav">
+                <button class="Button1">Order online</button>
+                <button class="Button2">Reservate</button>
+            </div>
+            <div class="hamburger" id="dropdown" style="position: relative;">
+                <div style="height: 24px; width: 24px">
+                    <svg width="24" height="24" viewbox="0 0 24 24" fil="none" xmlns="https://www.w3.org/2000/svg"
+                        role="img" style="stroke: black;">
+                        <path d="M3 12H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3 6H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M3 18H21" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg>
+                </div>
+                <div class="hide dropdown">
+                    <div class="p-Home TextBox139 bpt">
+                        <div class="p-Home TextBox150 bpt">Home</div>
+                        <div class="p-Home TextBox 149 bpt">About</div>
+                        <div class="p-Home TextBox148 bpt">Menu</div>
+                        <div class="p-Home TextBox147 bpt">Pages</div>
+                        <div class="p-Home TextBox146 bpt">Cart</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <!-- Introduction -->
+        <div class="Flex1">
+            <div class="Flex2">
+                <div class="Flex3">
+                    <div class="Text1">The best place to</div>
+                    <div class="Text2">eat burgers in LA.</div>
+                </div>
+                <div class="Text3">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Debitis pariatur eaque non praesentium
+                    voluptatibus maiores voluptas officiis voluptates a inventore illo corrupti, quibusdam repellendus.
+                </div>
+                <div class="Flex4">
+                    <div class="buttons">
+                        <button class="Button2">Reservate</button>
+                        <button class="Button1">Order online</button>
+                    </div>
+                </div>
+            </div>
+            <div class="Flex5">
+                <img class="intro-image"
+                    src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0b651769674022e7ba_home-hero-restaurante-x-template.jpeg"
+                    alt="No preview available">
+            </div>
+        </div>
+
+
+
+        <!-- Advertisement -->
+        <div class="Flex6">
+            <div class="">Order from your favourite app today!</div>
+            <div class="Flex7">
+                <div class="Flex8">
+                    <img class="brand1"
+                        src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0b63b4ee3fe71f5072_logo-doorash-restaurante-x-template.svg"
+                        alt="No preview available">
+                    <img class="brand2"
+                        src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0bded3b95d9731ecc4_logo-postmates-restaurante-x-template.svg"
+                        alt="No preview available">
+                </div>
+                <div class="Flex9">
+                    <img class="brand3"
+                        src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0b326163db6497f05b_logo-rappi-restaurante-x-template.svg"
+                        alt="No preview available">
+                    <img class="brand4"
+                        src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0b5b82ce962fe1736b_logo-grubhub-restaurante-x-template.svg"
+                        alt="No preview available">
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Browse Our Menu -->
+        <div class="Flex10">
+            <div class="heading">Browse our menu</div>
+
+            <div class="Flex11">
+
+                <div class="card">
+
+                    <div class="container">
+                        <img class="icon"
+                            src="https://atri-apps.github.io/restaurant_website/app-assets/616dcfaa447d37fed264e4ff_menu-breakfasts-restaurante-x-template.svg"
+                            alt="No preview available">
+                        <div class="heading1">Breakfast</div>
+                        <div class="about-icon">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Totam, repudiandae.</div>
+                        <div class="explore">Explore Menu</div>
+                    </div>
+
+                    <div class="container">
+                        <img class="icon"
+                            src="https://atri-apps.github.io/restaurant_website/app-assets/616dcfbb9e09be616e71d818_menu-main-dishes-restaurante-x-template.svg"
+                            alt="No preview available">
+                        <div class="heading1">Main Dishes</div>
+                        <div class="about-icon">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                            Totam, repudiandae.</div>
+                        <div class="explore">Explore Menu</div>
+                    </div>
+                </div>
+
+                <div class="card">
+
+                    <div class="container">
+                        <img class="icon"
+                            src="https://atri-apps.github.io/restaurant_website/app-assets/616dcfb5dd3ca61a6dd0ae1c_menu-drinks-restaurante-x-template.svg"
+                            alt="No preview available">
+                        <div class="heading1">Drinks</div>
+                        <div class="about-icon">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, itaque!</div>
+                        <div class="explore">Explore Menu</div>
+                    </div>
+
+                    <div class="container">
+                        <img class="icon"
+                            src="https://atri-apps.github.io/restaurant_website/app-assets/616dcfafe6321c66cb474f97_menu-desserts-restaurante-x-template.svg"
+                            alt="No preview available">
+                        <div class="heading1">Desserts</div>
+                        <div class="about-icon">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                            Incidunt, itaque!</div>
+                        <div class="explore">Explore Menu</div>
+                    </div>
+                </div>
+            </div>
+            <div class="buttons">
+                <button class="Button2">Order online</button>
+                <button class="Button1">Book a table</button>
+            </div>
+        </div>
+
+
+
+
+
+
+
+        <!-- Contact -->
+        <div class="Flex12">
+            <div class="Flex13">
+                <img src="https://atri-apps.github.io/restaurant_website/app-assets/616d9a0bdba0fb13cfd32fc0_about-home-restaurante-x-template-p-1080.jpeg"
+                    alt="No preview available" class="contact-image">
+                <div class="contact-info">
+
+                    <div class="welcome">Come and visit us</div>
+
+                    <div class="address">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a1718503bfe60f49_location-icon-restaurante-x-template.svg"
+                            alt="No preview available" class="location-logo">
+                        <div class="contact-text">837 W. Marshall Lane Marshalltown, IA 50150, Los Angeles</div>
+                    </div>
+
+                    <div class="telephone">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c36165d583fe91702b_phone-icon-restaurante-x-template.svg"
+                            alt="No preview available" class="phone-logo">
+                        <div class="contact-text">(414) 857 - 0107</div>
+                    </div>
+                    <div class="mail">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3400864a9087440a4_email-icon-restaurante-x-template.svg"
+                            alt="No preview available" class="mail-logo">
+                        <div class="contact-text">losangeles@restaurantex.com</div>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+            <!-- About -->
+            <div class="about">
+                <div class="heading-about">About us</div>
+                <div class="paragraph">
+                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Provident eos numquam mollitia eius
+                    deserunt sapiente quasi neque, ad non laborum. Nulla, excepturi dolores!
+                </div>
+                <div class="paragraph">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore reprehenderit nemo voluptates, rem
+                    consectetur praesentium! Rerum, doloremque fuga voluptate laborum error laudantium modi, quis quam
+                    blanditiis nam quos adipisci sit! Quaerat dolores eligendi aut sed.
+                </div>
+                <div class="buttons">
+                    <button class="Button1">About us</button>
+                    <button class="Button2">Join our team</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Items -->
+        <div class="p-Home Flex38 bpt">
+            <div class="p-Home TextBox47 bpt">Browse our menu</div>
+            <div class="p-Home TextBox48 bpt">
+                "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laborum nostrum atque pariatur similique illo
+                corrupti."
+            </div>
+            <div class="p-Home Flex39">
+                <div class="p-Home Flex40">
+                    <div class="p-Home Flex297">
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 10.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dca333c0bd679a77bec56_classic-burger-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Classic Burger</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 6.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc9ba43f4163d5f7b436e_chocolate-milkshake-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Chocolate Milkshake</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+                    </div>
+
+                    <div class="p-Home Flex297 bpt">
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 5.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc9aac480169bcc819e69_classic-fries-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Classic Fries</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 8.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc56043f416c4db7b3322_pancakes-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Pancakes</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                    </div>
+                </div>
+
+
+                <div class="p-Home Flex40">
+                    <div class="p-Home Flex297 bpt">
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 3.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc50743f41639377b2fd8_ice-cream-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Ice Cream</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 9.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc4d28ae55806547e5dba_chicken-burger-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Chicken Burger</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="p-Home Flex297 bpt">
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 6.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc4908009251d2f5ac06b_egg-toast-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Egg Toast</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                        <div class="Product_Card">
+                            <div class="Flex42">
+                                <div class="Product_Price">$ 1.99 USD</div>
+                            </div>
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dc414d54d4e45ccac841f_regular-soda-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="Product_Image">
+                            <div class="Product_Name">Regular Soda</div>
+                            <div class="Product_About">Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore,
+                                nihil ratione vitae quisquam cumque voluptatibus.</div>
+                        </div>
+
+
+                    </div>
+                </div>
+                <div class="buttons1">
+                    <button class="Button2">Order online</button>
+                    <button class="Button1">Book a table</button>
+                </div>
+            </div>
+        </div>
+
+
+
+
+        <!-- Advertisement2 -->
+        <div class="advertise">
+            <div class="context">
+                <div class="heading-advertise">Taste the most delicious burger in Los Angeles, CA</div>
+                <div class="content">
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Adipisci fugit commodi, molestias alias
+                    officia error.
+                </div>
+
+                <div class="buttons">
+                    <button class="Button1">Order online</button>
+                    <button class="Button3">Reservate</button>
+                </div>
+
+            </div>
+            <div class="image-section">
+                <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c364b456b93fb50d6d_cta-restaurante-x-template.jpeg"
+                    alt="No preview available" class="image-advertise">
+            </div>
+        </div>
+
+
+
+
+        <!-- Reviews -->
+        <div class="p-Home Flex63 bpt">
+            <div class="p-Home Flex130">
+                <div class="p-Home TtextBox142">1</div>
+            </div>
+            <div class="p-Home TextBox75">What our clients say</div>
+
+            <div class="p-Home TextBox76 bpt">
+                "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Possimus officiis nihil corrupti officia.
+                Soluta, exercitationem."
+            </div>
+
+
+            <div class="p-Home Flex89">
+                <div class="p-Home Flex128">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/left-arrow-svgrepo-com.svg"
+                        alt="No preview available" class="Image74">
+                </div>
+                <div class="p-Home Flex64">
+
+                    <div class="p-Home Flex65">
+
+
+
+                        <div class="star">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                                alt="No preview available" class="star-image">
+                        </div>
+                        <div class="star">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                                alt="No preview available" class="star-image">
+                        </div>
+                        <div class="star">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                                alt="No preview available" class="star-image">
+                        </div>
+                        <div class="star">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                                alt="No preview available" class="star-image">
+                        </div>
+                        <div class="star">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                                alt="No preview available" class="star-image">
+                        </div>
+
+                    </div>
+
+
+                    <div class="p-Home TextBox78">"You must try these burgers"</div>
+                    <div class="p-Home TextBox79">
+                        "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, obcaecati facere omnis ad
+                        nostrum id soluta veniam quis voluptas dolor?"
+                    </div>
+
+                    <div class="p-Home Flex67">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/face1.jpg"
+                            alt="No preview available" class="p-Home Image40">
+
+                        <div class="p-Home TextBox81">Matt Cannon</div>
+                        <div class="p-Home TextBox80">San Diego, CA</div>
+                    </div>
+
+                </div>
+
+                <div class="p-Home Flex129">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/right-arrow-svgrepo-com.svg"
+                        alt="No preview available" class="p-Home Image75">
+                </div>
+            </div>
+            <div class="buttons2">
+                <button class="Button2">Order online</button>
+                <button class="Button1">Reseervate</button>
+            </div>
+
+        </div>
+
+
+
+
+
+
+
+        <!-- Our Article -->
+        <div class="p-Home Flex71">
+            <div class="p-Home Flex72">
+                <div class="p-Home TextBox82">Our articles</div>
+                <div class="p-Home Flex73">
+                    <div class="p-Home TextBox83">Browse our articles</div>
+                </div>
+            </div>
+            <div class="p-Home Flex74">
+                <div class="p-Home Flex75">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dbe9e3823ad75e50cfc8d_blog-post-featured-image-01-restaurante-x-template.jpeg"
+                        alt="No preview available" class="p-Home Image45">
+                    <div class="p-Home TextBox85">September 1,2022</div>
+                    <div class="p-Home TextBox86">The secret trick to prepare a perfect burger</div>
+                    <div class="p-Home TextBox84">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illo,
+                        doloribus</div>
+                </div>
+                <div class="p-Home Flex76">
+                    <div class="p-Home Flex77">
+                        <div class="p-Home Flex81">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dbcaac6330b375d0f90ca_blog-post-featured-image-03-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="p-Home Image49">
+                            <div class="p-Home TextBox97">September 1, 2022</div>
+                            <div class="p-Home TextBox96">The secret trick to prepare a perfect burger</div>
+                        </div>
+                        <div class="p-Home Flex82">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dbc8ef398638f6395578f_blog-post-featured-image-04-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="p-Home Image51">
+                            <div class="p-Home TextBox99">September 1, 2022</div>
+                            <div class="p-Home TextBox100">The secret trick to prepare a perfect burger</div>
+                        </div>
+                    </div>
+                    <div class="p-Home Flex85">
+                        <div class="p-Home Flex84">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dbc58e6083f444f1883f5_blog-post-featured-image-05-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="p-Home Image53">
+                            <div class="p-Home TextBox103">September 1, 2022</div>
+                            <div class="p-Home TextBox104">The secret trick to prepare a perfect burger</div>
+                        </div>
+                        <div class="p-Home Flex83">
+                            <img src="https://atri-apps.github.io/restaurant_website/app-assets/616dbb79aa873fb79780189b_blog-post-featured-image-06-restaurante-x-template-p-500.jpeg"
+                                alt="No preview available" class="p-Home Image52">
+                            <div class="p-Home TextBox102">September 1, 2022</div>
+                            <div class="p-Home TextBox101">The secret trick to prepare a perfect burger</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <!-- Order -->
+
+        <div class="p-Home Flex90">
+            <div class="p-Home Flex91">
+                <div class="p-Home TextBox105">Book your table now</div>
+                <div class="p-Home TextBox106">
+                    "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime, nisi? Eius, eum ullam atque velit
+                    omnis tempora minus repellat porro!"
+                </div>
+                <div class="address">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a1718503bfe60f49_location-icon-restaurante-x-template.svg"
+                        alt="No preview available" class="location-logo">
+                    <div class="contact-text">837 W. Marshall Lane Marshalltown, IA 50150, Los Angeles</div>
+                </div>
+
+                <div class="telephone">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c36165d583fe91702b_phone-icon-restaurante-x-template.svg"
+                        alt="No preview available" class="phone-logo">
+                    <div class="contact-text">(414) 857 - 0107</div>
+                </div>
+                <div class="mail">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3400864a9087440a4_email-icon-restaurante-x-template.svg"
+                        alt="No preview available" class="mail-logo">
+                    <div class="contact-text">losangeles@restaurantex.com</div>
+                </div>
+            </div>
+
+
+
+            <div class="p-Home Flex92">
+                <div class="p-Home Flex98">
+                    <div class="p-Home Flex99">
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Name</div>
+                            <input class="p-Home Input" placeholder="John Carter">
+                        </div>
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Email Address</div>
+                            <input class="p-Home Input" placeholder="example@email.com">
+                        </div>
+                    </div>
+
+
+                    <div class="p-Home Flex99">
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Phone</div>
+                            <input class="p-Home Input" placeholder="(123) 456 - 789">
+                        </div>
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Location</div>
+                            <input class="p-Home Input" placeholder="Ex. Los Angeles">
+                        </div>
+                    </div>
+
+
+
+                    <div class="p-Home Flex99">
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Date</div>
+                            <input class="p-Home Input" placeholder="Day and month">
+                        </div>
+                        <div class="p-Home Flex100">
+                            <div class="TextBox">Schedule</div>
+                            <input class="p-Home Input" placeholder="Ex. 2:00PM">
+                        </div>
+                    </div>
+
+
+
+                    <div class="p-Home Flex100">
+                        <div class="TextBox">Add a note</div>
+                        <input class="p-Home Input9" placeholder="Do you have any note for us?">
+                    </div>
+
+                    <button class="p-Home Button21">Book a table</button>
+
+                    <div class="p-Home Flex137">
+                        <div class="p-Home TextBox145">The email is sent successfully ...</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+        <div class="p-Home Flex110">
+            <div class="p-Home Flex112">
+                <div class="p-Home TextBox122">Foloow us on Instagram</div>
+                <div class="p-Home Flex111">
+                    <div class="p-Home TextBox121">Follow us</div>
+                </div>
+            </div>
+
+            <div class="p-Home Flex113">
+                <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c40b5fd9150a07d9ad_Instagram-01-restaurante-x-template.jpeg"
+                    alt="No preview available" class="p-Home Image58">
+                <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c360af92b81a49e435_Instagram-02-restaurante-x-template.jpeg"
+                    alt="No preview available" class="p-Home Image59">
+
+                <div class="p-Home Flex114">
+                    <div class="p-Home Flex115">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a17185be94e60f4b_Instagram-03-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image61">
+
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a17185112de60f4a_Instagram-04-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image60">
+                    </div>
+
+                    <div class="p-Home Flex116">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c376225e7ff4d983c1_Instagram-05-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image62">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c39920b1572849ffce_Instagram-06-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image63">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+        <div class="p-Home Flex117">
+            <div class="p-Home Flex118">
+                <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c309aa0721dacedf0a_logo-restaurante-x-template.svg"
+                    alt="No preview available" class="p-Home Image64">
+
+                <div class="p-Home TextBox123">
+                    "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio excepturi ducimus sed numquam error eius nihil asperiores deleniti facilis doloremque"
+                </div>    
+
+                <div class="p-Home Flex121">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                    alt="No preview available" class="star-image">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                    alt="No preview available" class="star-image">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                    alt="No preview available" class="star-image">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                    alt="No preview available" class="star-image">
+                    <img src="https://atri-apps.github.io/restaurant_website/app-assets/star-svgrepo-com.svg"
+                    alt="No preview available" class="star-image">
+                </div>
+            </div>
+            <div class="p-Home Flex119">
+                <div class="p-Home Flex125">
+                    <div class="Text-bottom1">Pages</div>
+                    <div class="Text-bottom2">Home</div>
+                    <div class="Text-bottom2">Contact</div>
+                    <div class="Text-bottom2">Blog Post</div>
+                    <div class="Text-bottom2">Blog</div>
+                    <div class="Text-bottom2">Menu</div>
+                    <div class="Text-bottom2">About</div>
+                    <div class="Text-bottom2">Delivery</div>
+                </div>
+                <div class="p-Home Flex127">
+                    <div class="Text-bottom1">Utility</div>
+                    <div class="Text-bottom2">Home</div>
+                    <div class="Text-bottom2">About</div>
+                    <div class="Text-bottom2">Menu</div>
+                    <div class="Text-bottom2">Blog</div>
+                    <div class="Text-bottom2">Blog Post</div>
+                    <div class="Text-bottom2">Contact</div>
+                    <div class="Text-bottom2">Delivery</div>
+                </div>
+            </div>
+
+            <div class="p-Home Flex120">
+                <div class="p-Home TextBox124">Follow us on Instagram</div>
+                <div class="p-Home Flex114">
+                    <div class="p-Home Flex115">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a17185be94e60f4b_Instagram-03-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image61">
+
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c3a17185112de60f4a_Instagram-04-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image60">
+                    </div>
+
+                    <div class="p-Home Flex116">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c376225e7ff4d983c1_Instagram-05-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image62">
+                        <img src="https://atri-apps.github.io/restaurant_website/app-assets/616da2c39920b1572849ffce_Instagram-06-restaurante-x-template-p-500.jpeg"
+                            alt="No preview available" class="p-Home Image63">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </div>
+    <script src="index.js" charset="utf-8"></script>
+</body>
+
+</html>
