@@ -1,12 +1,11 @@
-
-const dropdownBtn = document.getElementsById("dropdown");
-const dropdownMenu = document.getElementsByClassName("dropdown");
-
-const toggleDropdown = function () {
-    dropdownMenu.classList.toggle("show");
-  };
+function toggle(){
+document.getElementById("hidden").style.display = "block";
+}
 
 
-dropdownBtn.addEventListener("click", function (e) {
-    e.toggleDropdown();
-  });
+
+var change = document.getElementById("hamburger");
+change.addEventListener(
+    "click",
+    toggle
+  );
