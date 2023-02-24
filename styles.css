@@ -100,7 +100,7 @@ img {
     font-family: DM Sans;
 }
 
-.hamburger{
+#hamburger{
     display: none;
 }
 
@@ -1448,8 +1448,12 @@ img {
     display: none;
 }
 
-.hamburger {
+#hamburger {
     display: flex;
+}
+    
+#hidden{
+    display: none;
 }
 
 .p-Home.Flex139.bpt {
